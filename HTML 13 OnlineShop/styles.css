@@ -1,0 +1,110 @@
+.www-onlineshop-com{
+    text-align: center;
+    background-color: rgb(40, 201, 40);
+    color: wheat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 9px;
+    font-family: tahoma;
+}
+.shop-description{
+    text-align: center;
+    color:rgb(40, 201, 40);
+    font: tahoma;
+}
+.images{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    padding-bottom: 25px;
+}
+.item-name{
+    font-size: large;
+    font-weight: bold;
+}
+.item-price{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.price-number{
+    color: green;
+    font-weight:lighter;
+}
+.cart-button{
+    margin-left: 8px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-color:rgb(40, 201, 40);
+    background-color:rgb(40, 201, 40);
+    color: white;
+    font-family: Tahoma;
+    border-radius: 9px;
+    border-style: solid;
+    transition: opacity 0.15s, background-color 0.05s;
+}
+.cart-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.cart-button:active{
+    background-color: white;
+    color:rgb(40, 201, 40);
+}
+.description-button{
+    margin-bottom: 100px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-color:rgb(40, 201, 40);
+    background-color:white;
+    color: rgb(40, 201, 40);
+    font-family: Tahoma;
+    border-radius: 9px;
+    border-style: solid;
+    transition: opacity 0.15s, background-color 0.05s;
+}
+.description-button:hover{
+    background-color: rgb(101, 255, 101);
+    cursor: pointer;
+    box-shadow: 0 0 2px grey;
+}
+.description-button:active{
+    background-color: white;
+    color:rgb(40, 201, 40);
+}
+.item-section{
+    display: block;
+    width: 520px;
+    border-color: red;
+    border-width: 3px;
+    border-style: none;
+    margin-bottom: 15px;
+}
+.shop-picture{
+    width: 220px;
+    height: 220px;
+    border-width: 3px;
+    border-style: none;
+    display: inline-block;
+    justify-content: top;
+}
+.item-details{
+    display: inline-block;
+    border-width: 3px;
+    border-style: none;
+    width: 250px;
+    height: 150px;
+    vertical-align: top;
+}
+.shopping-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
